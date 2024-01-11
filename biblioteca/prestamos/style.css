@@ -1,0 +1,174 @@
+/*
+<!-----
+EQUIPO 3
+CALENDARIO 2021B
+SECCION D04
+
+|||| Integrantes |||||
+Guzman Mares Cesar Eduardo 214792198
+Ibarra Castañeda Arturo 216753661  
+Marcos Alberto Linares Perez 214792058
+López Arellano Ricardo David 217136143
+
+---->
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+select {
+    padding: 10px;
+    margin: 10px 0;
+}
+label{
+    color:#017bab;
+    margin-bottom: 10px;
+}
+body *{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+h2{
+    color:#017bab;
+    padding:0 5%;
+    text-align:center;
+}
+.header{
+    min-height: 15vh;
+    width: 100%;
+    background:#fff;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0 30px;
+    box-shadow: 5px 5px 15px #cecece;
+    z-index: 999;
+}
+main{
+    display: flex;
+}
+.nav{
+    height: 100vh;
+    width: 20vw;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px #cecece;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.img-empleado{
+    height: 100px;
+}
+.navigation{
+    width:100%;
+}
+.nav-item{
+    width: 100%;
+    padding: 15px 10px;
+    color:#000;
+    font-weight: 500;
+}
+.nav-item:hover{
+    background-color: #017bab;
+    transition: 1s;
+    cursor: pointer;
+    color:#fff;
+}
+.formulario-sec{
+    border-top: solid 15px #017bab;
+    height: 100vh;
+    width: 80vw;
+    padding: 5%;
+    background-color:#fff;
+}
+.name-biblio{
+    color: #017bab;
+    background: #fff;
+}
+.formulario{
+    display:flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+.formulario input{
+    padding: 10px;
+    width: 100%;
+    border:solid 1px #cecece;
+    color:#000;
+    margin-bottom: 10px;
+}
+.formulario input:focus {
+    border:solid 1px #cecece;
+    color:#017bab;
+}
+input[type="submit"] {
+    background: #017bab;
+    color: #fff;
+    font-weight: 700;
+    width: 40%;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    color: #017bab;
+    background:#fff;
+    transition: .5s;
+}
+.content-row{
+    display:flex;
+    flex-direction: column;
+}
+.content{
+    display:flex;
+}
+.content div{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    width: 18.5%;
+    height: 60px;
+    font-size: 13px;
+    padding-left: 10px;
+    overflow:hidden;
+    border-bottom: solid 1px #cecece;
+}
+div#id {
+    width: 10%;
+}
+.secces{
+    border-left: 7px solid #00b100;
+    background: #fff;
+    MARGIN: auto;
+    width: 400px;
+    height: 50px;
+    DISPLAY: FLEX;
+    JUSTIFY-CONTENT: flex-start;
+    ALIGN-ITEMS: center;
+    PADDING-LEFT: 20PX;
+    margin-top: 0px;
+    box-shadow: #3e3b3b 1px 3px 10px;
+}
+a.edit {
+    background: #00b100;
+    color: #fff;
+    margin-left: 15%;
+    padding: 5px 8px;
+    transition:.7s;
+}
+a.edit:hover {
+    box-shadow: 5px 5px 5px #c9c7c7;
+}
+a.remove {
+    background: #f90000;
+    color: #fff;
+    margin-left: 15%;
+    padding: 5px 8px;
+    transition:.7s;
+}
+a.remove:hover {
+    box-shadow: 5px 5px 5px #c9c7c7;
+}

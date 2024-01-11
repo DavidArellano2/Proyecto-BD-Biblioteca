@@ -1,0 +1,56 @@
+/*
+<!-----
+EQUIPO 3
+CALENDARIO 2021B
+SECCION D04
+
+|||| Integrantes |||||
+Guzman Mares Cesar Eduardo 214792198
+Ibarra Castañeda Arturo 216753661  
+Marcos Alberto Linares Perez 214792058
+López Arellano Ricardo David 217136143
+
+---->*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body *{
+    font-family: Georgia;
+    background-image: url('fondo.jpg');
+    text-decoration: none !important;
+}
+.header{
+    min-height: 15vh;
+    width: 100%;
+    background:#fff;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0 30px;
+}
+.header *{
+    background: #fff !important;
+}
+.name-biblio{
+    color: #017bab;
+    background-color: #fff;
+}
+#dashboard{
+    height: 85vh;
+}
+.item{
+    background: #fff;
+    height: 30vh;
+    
+}
+.item img{
+    height: 100px;
+}
+
+.item p {
+    background: #fff;
+}
